@@ -1,0 +1,24 @@
+Package: orpnoise
+Type: Package
+Title: Noise exposure in occupational risk prevention
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Raúl", "Aguilar-Elena",
+      email = "raul.aguilar.e@professor.universidadviu.com",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Alejandro", "Guillén-Riquelme",
+      email = "aguillenr@universidadviu.com",
+      role = c("aut")
+    )
+  )
+Description: Set of functions and shinys for the calculation of 
+    noise exposure risks in work environments. 
+    Load 'noisemapshiny()' to open the shiny on the map of 
+    auditory exposure according to the sources.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
